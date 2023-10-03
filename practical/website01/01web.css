@@ -184,11 +184,12 @@ gap: 100px;
 .main-text{
      text-align: center; 
     padding: 50px;
+    color: #f64b3c;
 }
 h1{
     font-size: 50px;   
     /* padding-bottom: 0px; */
-     color: #f64b3c;;
+     ;
 }
 h1+p{
     font-size: 20px;   
@@ -247,15 +248,112 @@ top: 1280px;}
 .capcicum{position: absolute;
 left: 1350px;
  top: 1150px;}
+ 
+.section2{
+    background-color: #f64b3c;
+    color: white;
+    padding-top:50px;
+    /* margin-bottom: 100px; */
+}
+
+
+
  .container-2{
-    background-color:#f64b3c;
+    /* background-color:#f64b3c; */
+    /*  */
+    display: flex;
+    
+     padding-top: 100px; 
+     margin-bottom:  0px; ;
+    gap: 150px;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+
  }
 
  .box-1{
-    height: 500px;
-    width: 500px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
-    border: 1px black;
+    border: 1px black solid;
+    background: url(../../images/burger1.png) no-repeat center center/cover ;
+     background-repeat: no-repeat; 
+     padding-top: 50px;
+  
+    
+    color: white;
  }
+h2{font-size: 80px;
+color: white;
+align-items: center;
+padding-top: 50px;
 
- 
+/* margin-top: 100px; */
+/* margin: 90px; */
+}
+.Order-ready{font-size: 15px;
+    height: 40PX;
+
+    width: 200PX;
+text-transform: uppercase;
+ color: #f64b3c; 
+background-color: white;
+border-radius: 20px;
+font-weight: 700; 
+font-family: "Montserrat";
+border: 0px;
+margin-bottom: 20PX;
+margin-top: 30PX;}
+
+ .cover{flex-direction:row-reverse;
+    flex-direction: column-reverse;
+    background-color: bisque;
+    font-size: 30px;
+    color: #f64b3c;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+padding: 50px;
+/* display: flex; */
+}
+ h4{ 
+    font-size: 80px;
+ } 
+
+ .momos1{
+    position: absolute;
+    /* bottom: 50px; */
+    /* left: 50px; */
+    left: 250px;
+    /* bottom: 1500px; */
+    /* top: 2600px; */
+    top: 550px;
+    /* right: 50px; */
+ }
+ .burger1{
+    position: absolute;
+    /* top: 2150px; */
+    left: 750px;
+    top: 10px;
+ }
+ .mashroom1{position: absolute;
+    left: 800px;
+    /* top: 2600px; */
+    top: 450px;
+    /* bottom: 200px;] */
+ }
+ .fries1{position: absolute;
+    right: 0px;
+    bottom: 100px;
+    left: 1350px;
+ }
+ .leaf1{position: absolute;
+bottom: 500px;
+left: 1350px;}
+
+.capcicum1{
+    position: absolute;
+    bottom: 350px;
+}
