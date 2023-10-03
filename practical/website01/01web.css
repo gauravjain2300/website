@@ -53,7 +53,7 @@ h1{
     margin: 0px;
     /* margin-top: 20px; */
     margin-bottom: 50px;
-    margin: ;
+    
     
 font-family: "Archivo";
 }
@@ -263,6 +263,7 @@ left: 1350px;
     /*  */
     display: flex;
     
+    
      padding-top: 100px; 
      margin-bottom:  0px; ;
     gap: 150px;
@@ -341,7 +342,7 @@ padding: 50px;
  .mashroom1{position: absolute;
     left: 800px;
     /* top: 2600px; */
-    top: 450px;
+    top: 500px;
     /* bottom: 200px;] */
  }
  .fries1{position: absolute;
@@ -357,3 +358,4 @@ left: 1350px;}
     position: absolute;
     bottom: 350px;
 }
+h1
