@@ -79,7 +79,7 @@ margin-bottom: 20PX;
 margin-top: 30PX;
 }
 
-.color{
+/* .color{
     background-color: bisque;
 }
 
@@ -91,7 +91,7 @@ font-family: "Archivo";
 font-size: 50PX;
 padding-top: 50;
 text-align: center;
-/* margin-top: 20px; */
+ margin-top: 20px; 
 }
 .Lorem
 { padding-bottom: 50px; 
@@ -107,20 +107,20 @@ text-align: center;
    
 }
 .gaurav{position: absolute;
-/* bottom: 500px; */
+ bottom: 500px; 
 top: 50px;
 left: 40px;}
 
 .gaurav1{
     position: absolute;
     left: 1200px;
-     /* top: -200px;  */
+     /* top: -200px;  
     bottom: 250px
 }
 
 .gaurav2{
     position: absolute;
-    /* right: 100px; */
+    /* right: 100px; 
     left: 1000px;
     
     top: 280px;
@@ -150,14 +150,14 @@ margin: 0 auto;
 .Founder{
     display: flex;
      text-align: center; 
-    /* margin-left: 200px;  */
+    /* margin-left: 200px;  
 gap: 100px;
     font-weight: 500;
-    /* margin-left: 200px; */
+    /* margin-left: 200px; }*/
 
-    
-}
+     
 #section{
+    /* background-color: bisque; */
     background-color: bisque;
     color: #f64b3c;
     text-align: center;
@@ -217,10 +217,12 @@ h3+p{
     height: 200px;
     border-radius: 50%;
      margin: 15px auto; 
-    background: url(../../images/gaurav\ photo.jpeg)no-repeat center center/cover;
+    background: url(../../images/tarun.jpeg)no-repeat center center/cover;
     gap: 10px;
     
 }
+
+
 .momos{position: absolute;
 top: 800px;}
 
@@ -421,7 +423,7 @@ padding: 40px;
     /* align-items: center; */
     margin-bottom: 100px;
     padding-bottom: 100px;
-    z-index: 1px;
+    z-index: 1;
     /* position: absolute; */
 
     
@@ -429,7 +431,8 @@ padding: 40px;
 .container-4{position: relative;
 background-color: bisque;
 justify-content: center;
-align-items: center;}
+align-items: center;
+ z-index: 2222;}
 .momos2{position: absolute;
 right: 0px;
 /* bottom: 0px; */
@@ -465,13 +468,86 @@ z-index: 0;}
 
 
 .section5{
-    background-color: #716c53;
-    background-image: url(../../images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(3\).png);
+    background: radial-gradient(circle, rgba(216,61,27,0.9248949579831933) 0%, rgba(210,30,73,1) 100%), url(../../images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(3\).png);   
     background-size: cover;
+    
     background-repeat: no-repeat;
     color: white;
     font-size: 30px;
     text-align: center;
-    padding-bottom: 100px;
-    margin: 100px;
+    align-items: center;
+    position: relative;
+    
 }
+
+.dolor{
+ padding: 100px; 
+font-size: 30px;
+
+font-weight: 800;
+text-align: center;
+}
+
+.dolor-1{
+    
+/* padding: 100px; */
+font-size: 50px;
+
+font-weight: 800;
+text-align: center;
+}
+
+.dolor-2{
+    padding: 100px; 
+   font-size: 30px;
+   
+   font-weight: 200;
+   text-align: center;}
+   .suscribe{
+    font-size: 15px;
+        height: 50PX;
+        width: 180PX;
+    text-transform: uppercase;
+    
+    color: #ffffff;
+    background-color: rgb(240, 66, 66);
+    /* border-radius: 20px; */
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin: 30PX; */
+    margin-bottom: 20PX;
+    margin-top: 30PX;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 0px;
+    
+   }
+
+   .text-area{ width: 500px;
+    height: 50px;
+    border-bottom-left-radius:  30px ;
+    border-top-left-radius: 30px;
+    border: 0;
+    color:antiquewhite ;
+}
+
+.momos3{
+    position: absolute;
+    top: 1300%;
+right:  0px;
+}
+.burger3{top: 1230%;
+    position: absolute;
+    right: 100px;
+    
+
+}
+.mashroom3{
+    position: absolute;
+    top: 1300%;
+    left: 0;
+}
+.fries3{position: absolute;
+top: 780%;
+left: 0;}
