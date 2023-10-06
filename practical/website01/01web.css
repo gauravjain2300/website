@@ -4,10 +4,12 @@
     margin: 0;
 box-sizing: border-box;}
 
+
 .container{
     background-image: url(../../images/backgroundimage132.png);
 background-size: cover;
 background-repeat: no-repeat;
+
 }
 .flex{
     display: flex;
@@ -16,7 +18,7 @@ background-repeat: no-repeat;
      justify-content: end;
      justify-content: space-between;
      align-items: center;
-     /* margin-top: 50px; */
+      
      padding-top: 50px;
 }
 
@@ -35,125 +37,63 @@ color: #ffffff;
 font-weight: 600px;
 font-family: "Poppins";
     
-    /* margin-right: 500px; */
+    
     
 }
 .col-50{
-    /* width: 50%; */
-     margin: 100px; 
+     
+    color: white;
+    font-size: 30px; 
+    margin-bottom: 50px;
+    font-family: "Archivo";
+    
+    
+     
 }
 
 
-
-h1{
+.laptop{
     color: white;
-    font-size: 60px;
-    margin: 0px;
-    /* margin-top: 20px; */
-    margin-bottom: 50px;
+    font-size: 80px;
+    margin: 90px;
+     
+     margin-bottom: 50px; 
+    text-align: start;
+
+
     
     
 font-family: "Archivo";
-}
-   .gau{
-font-size: 20px;
-color: #ffffff;
-font-weight: 400;
-font-family: "Nunito";
-margin: 0PX;
+ } 
+   .cable{
+    color: white;
+    font-size: 20px;
+    margin: 90px;
+      margin-top: 20px; 
+     margin-bottom: 50px; 
+    text-align: start;
+    margin-left: 4px;
+
+
 
 }
-   .Order-now{font-size: 15px;
+   .Order-now
+   {font-size: 15px;
     height: 40PX;
     width: 180PX;
 text-transform: uppercase;
-/* color: white; */
+
 color: #ffffff;
 background-color: rgb(240, 66, 66);
 border-radius: 20px;
 font-weight: 700;
 font-family: "Montserrat";
 text-align: center;
-/* margin: 30PX; */
-margin-bottom: 20PX;
-margin-top: 30PX;
+ margin-bottom: 5PX; 
+ 
+margin-left: 89px;
+border: 0;
 }
-
-/* .color{
-    background-color: bisque;
-}
-
-
-h2{
-color: #f64b3c;
-font-weight: 700;
-font-family: "Archivo";
-font-size: 50PX;
-padding-top: 50;
-text-align: center;
- margin-top: 20px; 
-}
-.Lorem
-{ padding-bottom: 50px; 
- margin-top: 50px;
-
-color: #f64b3c;
-font-weight: 400;
-font-family: "Montserrat";
-text-align: center;
-    font-size: 20px;
-}
-.backgroun{position: relative;
-   
-}
-.gaurav{position: absolute;
- bottom: 500px; 
-top: 50px;
-left: 40px;}
-
-.gaurav1{
-    position: absolute;
-    left: 1200px;
-     /* top: -200px;  
-    bottom: 250px
-}
-
-.gaurav2{
-    position: absolute;
-    /* right: 100px; 
-    left: 1000px;
-    
-    top: 280px;
-}
-.gaurav3{
-    position: absolute;
-    right: 50px;
-    top: 50px;
-}
-
-
-
-span{color: #f64b3c;}
-.rahul1{display: flex;
-}
-
-.rahul{
-background: blue;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-margin: 0 auto;
-}
-
-
-.Founder{
-    display: flex;
-     text-align: center; 
-    /* margin-left: 200px;  
-gap: 100px;
-    font-weight: 500;
-    /* margin-left: 200px; }*/
 
      
 #section{
@@ -161,7 +101,7 @@ gap: 100px;
     background-color: bisque;
     color: #f64b3c;
     text-align: center;
-    
+    padding: 50px;
 }
 
 .container1{
@@ -183,12 +123,12 @@ gap: 100px;
 }
 .main-text{
      text-align: center; 
-    padding: 50px;
+     padding: 22px;
     color: #f64b3c;
 }
 h1{
     font-size: 50px;   
-    /* padding-bottom: 0px; */
+    /* /* padding-bottom: 0px;  */
      ;
      text-align: center;
 }
@@ -224,7 +164,8 @@ h3+p{
 
 
 .momos{position: absolute;
-top: 800px;}
+top: 800px;
+left: 132px;}
 
 .burger{position: absolute;
 left: 1300px;
@@ -246,36 +187,24 @@ left: -10px;
 .leaf{position: absolute;
 right: 100px;
 top: 10px;
-top: 1280px;}
+top: 1280px;
+left: 570px;}
 
 .capcicum{position: absolute;
-left: 1350px;
- top: 1150px;}
+/* left: 1350px; */
+ top: 1150px;
+right: 0px;}
  
 .section2{
     background-color: #f64b3c;
     color: white;
-    padding-top:60px;
-    padding-bottom: 73px;
+    padding-top:80px;
+    padding-bottom: 100px;
     /* margin-bottom: 100px; */
 }
 
 
 
- .container-2{
-    /* background-color:#f64b3c; */
-    /*  */
-    display: flex;
-
-    
-     padding-top: 100px; 
-     margin-bottom:  0px; ;
-    gap: 150px;
-    justify-content: center;
-    align-content: center;
-    position: relative;
-
- }
 
  .box-1{
     height: 350px;
@@ -284,19 +213,30 @@ left: 1350px;
     border: 1px black solid;
     background: url(../../images/burger1.png) no-repeat center center/cover ;
      background-repeat: no-repeat; 
-     padding-top: 50px;
-  
-    
+     /* padding-top: 30px; */
+     justify-content: center;
+    align-items: center;
+     margin-bottom: 25px;
+     
     color: white;
- }
+    padding-top: 100px; 
+
+}
+
+
+
+
 h2{font-size: 80px;
 color: white;
 align-items: center;
-padding-top: 50px;
+justify-content: center;
+align-items: center;
+ /* padding-top: 0px;  */
 
-/* margin-top: 100px; */
-/* margin: 90px; */
 }
+
+
+
 .Order-ready{font-size: 15px;
     height: 40PX;
 
@@ -320,9 +260,45 @@ margin-top: 30PX;}
     justify-content: center;
     align-content: center;
     position: relative;
-padding: 50px;
+    padding-bottom: 10px;
+    text-align: start;
+
 /* display: flex; */
 }
+
+.container-2{
+    /* background-color:#f64b3c; */
+    /*  */
+    padding: 100px;
+    display: flex;
+    padding-bottom: 100px;
+
+    
+     /* padding-top: 18px;  */
+     
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+ }
+
+.Order-now-1{font-size: 15px;
+    height: 40PX;
+    width: 180PX;
+text-transform: uppercase;
+/* color: white; */
+color: #ffffff;
+background-color: rgb(240, 66, 66);
+border-radius: 20px;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+  /* margin: 30PX;   */
+ margin-bottom: 5PX; 
+ /* margin-top: 30PX;  */
+
+border: 0;}
  h4{ 
     font-size: 80px;
  } 
@@ -334,25 +310,26 @@ padding: 50px;
     left: 250px;
     /* bottom: 1500px; */
     /* top: 2600px; */
-    top: 550px;
+    top: 530px;
     /* right: 50px; */
  }
  .burger1{
     position: absolute;
     /* top: 2150px; */
-    left: 750px;
-    top: 10px;
+    left: 608px;
+    top: -54px;
  }
  .mashroom1{position: absolute;
-    left: 800px;
+    left: 771px;
     /* top: 2600px; */
-    top: 500px;
+    top: 484px;
     /* bottom: 200px;] */
  }
  .fries1{position: absolute;
-    right: 0px;
+    /* right: 0px; */
     bottom: 100px;
-    left: 1350px;
+    /* left: 130px; */
+    right: -49px;
  }
  .leaf1{position: absolute;
 bottom: 500px;
@@ -361,8 +338,10 @@ left: 1350px;}
 .capcicum1{
     position: absolute;
     bottom: 350px;
+    left: -55px;
+  
 }
-/* h1+p{text-align: center;} */
+
 .text{
     justify-content: center;
     align-items: center;
@@ -416,13 +395,13 @@ background-color: white;}
 .Tarun-1{
     display: flex;
     
-padding: 40px;
+/* padding: 40px; */
     gap: 50px;
     justify-content: center;
     /* flex-direction:row ; */
     /* align-items: center; */
-    margin-bottom: 100px;
-    padding-bottom: 100px;
+    
+    padding-bottom: 40px; 
     z-index: 1;
     /* position: absolute; */
 
@@ -432,13 +411,12 @@ padding: 40px;
 background-color: bisque;
 justify-content: center;
 align-items: center;
- z-index: 2222;}
+padding-bottom: 100px;
+ /* z-index: 2222; */
+}
 .momos2{position: absolute;
 right: 0px;
-/* bottom: 0px; */
-/* top: 1px; */
-/* bottom: 400px;
- */
+
  top: 3800px;
 }
 .burger2{
@@ -468,59 +446,107 @@ z-index: 0;}
 
 
 .section5{
-    background: radial-gradient(circle, rgba(216,61,27,0.9248949579831933) 0%, rgba(210,30,73,1) 100%), url(../../images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(3\).png);   
+   
+
+background-image:url(../../images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(3\).png);
     background-size: cover;
-    
-    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-clip: border-box;
     color: white;
     font-size: 30px;
     text-align: center;
     align-items: center;
+    z-index: 1;
     position: relative;
+
+    /* padding: 100px; */
+    /* position: relative; */
+    padding: 100px;
     
+    
+}
+
+.section-wrapper5{
+    
+    background-image: url(../../website/IMAGE/backgraound\ image\ o2.png);
+    
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    z-index: 1;
+    position: relative;
 }
 
 .dolor{
- padding: 100px; 
-font-size: 30px;
+  padding: 100px;  
+ font-size: 30px; 
 
-font-weight: 800;
-text-align: center;
+ font-weight: 800; 
+text-align: center; 
+align-items: center;
+position: absolute;
+justify-content: center;
+
+
+background-color:#e52a19;
+    z-index: -1;
+    opacity: 0.7;
+    
+    width: 100%;
+    height: 100%;
+        top: 0;
+    left: 0;
+
 }
+
 
 .dolor-1{
     
-/* padding: 100px; */
+
 font-size: 50px;
 
 font-weight: 800;
-text-align: center;
+
 }
 
 .dolor-2{
-    padding: 100px; 
+    /* padding: 100px;  */
+    align-items: center;
    font-size: 30px;
+   /* margin: 100px; */
    
    font-weight: 200;
-   text-align: center;}
+   text-align: center;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;}
+   
+   
+   
    .suscribe{
     font-size: 15px;
         height: 50PX;
         width: 180PX;
     text-transform: uppercase;
-    
     color: #ffffff;
     background-color: rgb(240, 66, 66);
-    /* border-radius: 20px; */
+    
     font-weight: 700;
-    font-family: "Montserrat";
+    /* font-family: "Montserrat"; */
     text-align: center;
-    /* margin: 30PX; */
-    margin-bottom: 20PX;
+
+    /* margin-bottom: 20PX; */
     margin-top: 30PX;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
+    
     border: 0px;
+    /* position: absolute;   */
+    /* right: 0.5;   */
+    
     
    }
 
@@ -534,10 +560,10 @@ text-align: center;
 
 .momos3{
     position: absolute;
-    top: 1300%;
-right:  0px;
+    top: 760%;
+right:  100px;
 }
-.burger3{top: 1230%;
+.burger3{top: 710%;
     position: absolute;
     right: 100px;
     
@@ -545,9 +571,86 @@ right:  0px;
 }
 .mashroom3{
     position: absolute;
-    top: 1300%;
+    top: 750%;
     left: 0;
 }
 .fries3{position: absolute;
 top: 780%;
-left: 0;}
+left: 10%;}
+
+
+.capcicum3{position: absolute;
+top: 715%;
+ left: 670px;
+right: 90px;}
+
+.leaf3{
+       position: absolute;
+       top: 780%;
+       left:50%;
+}
+
+.leaf4{position: absolute;
+top: 720%;
+left: 15%;}
+
+.capcicum4{position: absolute;
+top: 790%;
+right: 10%;}
+
+.container-6{
+   
+     padding: 100PX;
+    
+}
+.table{
+    padding: 100px;
+}
+
+footer{background-color: black;
+color: white;
+padding-top: 100px;
+padding-bottom: 100px;
+display: flex;}
+
+.title{
+    padding-top: 100px;
+ padding-bottom: 100px;
+margin: 50px;}
+
+ol{
+    /* display: flex; */
+    gap: 20px;
+    list-style: none;
+    
+    
+}
+.earbuds{
+    padding-top: 100px;
+ padding-bottom: 100px;
+ display: flex;
+ gap: 100px;
+ margin-left: 100px;
+    
+}
+ol>li{
+     padding-top: 20px;
+    margin-bottom: 10px;
+    flex-direction: row;
+   
+}
+.remote{
+    display: flex;
+     padding-bottom: 22px; 
+    /* padding-top: 100px; */
+}
+
+
+@media screen and (max-width: 576px){
+    .container{
+        background-size: cover;
+        width: 100%;
+    }
+
+
+}

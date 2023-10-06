@@ -1,0 +1,17 @@
+@media (max-width: 575px){
+    body{width: 100vh;}
+    .col-50{
+        text-align: center;
+        align-items: center;
+
+    }
+    .laptop{
+        text-align: center;
+    }
+    .cable{
+        text-align: center;
+    }
+    .Order-now{
+        text-align: center;
+    }
+}
