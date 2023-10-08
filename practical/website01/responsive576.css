@@ -1,17 +1,246 @@
-@media (max-width: 575px){
-    body{width: 100vh;}
+@media (max-width: 576px)
+{
+  
+    .container{
+        background-size: cover;
+        width: 100%;
+
+    }
     .col-50{
-        text-align: center;
-        align-items: center;
+
+         text-align: center; 
 
     }
     .laptop{
         text-align: center;
+        font-size: 55px;
+        padding-left: 20px;
     }
-    .cable{
-        text-align: center;
-    }
-    .Order-now{
-        text-align: center;
-    }
+.cable{
+    /* text-align: center; */
+    /* padding-right:80px; */
+   
 }
+
+
+
+    
+    .cable{
+        text-align: start;
+        padding-right: 13px;
+        margin-left: 52px;
+    }
+    .Order-now
+    {
+        margin-right: 100px;
+        text-align: center;
+    }
+.main-text{
+    /* font-size: 5px; */
+    text-align: center;
+}
+h1+p{
+    font-size: 13px;
+    /* text-align: center; */
+    text-align: start;
+    margin: 0;
+}
+
+
+#section{flex-wrap: wrap;}
+.col-25{
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.row{flex-wrap: wrap;
+}
+
+
+.momos{position: absolute;
+    top: 800px;
+    left: 50px;}
+    
+    .burger{position: absolute;
+    left: 0px;
+    top: 1866px;}
+    
+    
+    
+    .mashroom{position: absolute;
+    bottom: 0px;
+    left: 480px;
+    top: 1627px;}
+    
+    
+    .fries{position: absolute;
+    top: 1000px;
+    left: -10px;
+    }
+    
+    .leaf{position: absolute;
+    right: 100px;
+    top: 10px;
+    top: 1511px;
+    left: 40px;}
+    
+    .capcicum{position: absolute;
+    /* left: 1350px; */
+     top: 1150px;
+    right: 0px;}
+    
+
+.box-1{
+    width: 25%;
+    text-align: center;
+     margin-bottom: 63px;
+    height: 400px;
+width: 400px;
+border-radius: 50%;}
+
+.container-2{
+    flex-direction: column;
+   padding: 0;
+   flex-wrap: wrap;
+   gap: 10px;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+}
+.Order-now-1{
+    
+/* padding-bottom: 30px; */
+margin-bottom: 30px;
+}
+
+.cover{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding:  30px;
+    }   
+   
+   
+    /* h4{font-size: 50px;} */
+    .momos1{
+        position: absolute;
+              
+        left: -20px;
+        
+        
+        top: 190px;
+        
+     }
+     .burger1{
+        position: absolute;
+        /* top: 2150px; */
+        left: -32px;
+        top: 667PX;
+     }
+     .mashroom1{position: absolute;
+        left: 433px;
+        /* top: 2600px; */
+        top: 72px;
+        /* bottom: 200px;] */
+     }
+     .fries1{position: absolute;
+        /* right: 0px; */
+        bottom: 100px;
+        /* left: 130px; */
+        right: -49px;
+     }
+     .leaf1{position: absolute;
+    bottom: 520px;
+    left: 350px ;
+    }
+    
+    .capcicum1{
+        position: absolute;
+        bottom: 350px;
+        left: -55px;
+      
+    }
+
+
+    .section2{
+        /* flex-direction: column; */
+       /* padding: 0; */
+       flex-wrap: wrap;
+     /* gap: 100px; */
+        
+        width: 100%;
+    }
+
+    .text{
+    width: 100%;
+font-size: 30px;}
+   
+   
+   
+.bottle{flex-wrap: wrap;}
+.get{text-align: center}
+
+
+.container-4{
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+.Tarun-1{
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    /* margin: 0 auto; */
+}
+.TARUN{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.momos2{
+    right: 0;
+    top: 500px;
+}
+.burger2{top: 53px;
+left: -50px;}
+
+
+.mashroom2{top: 400px;
+left: 0px;}
+
+
+.fries2{right: -9px;
+top: 1015px;}
+
+
+.leaf2{top: 800px;
+right: 0px;
+left: 0px;}
+
+
+.capcicum2{top: 1350px;
+left: 0px;}
+
+
+
+
+.dolor{
+
+    font-size: 20px;
+}
+
+
+
+.text-area{
+    width: 200px;
+}
+.suscribe{
+    width: 117px;
+}
+
+
+}
+
+
+

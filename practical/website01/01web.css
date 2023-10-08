@@ -9,6 +9,7 @@ box-sizing: border-box;}
     background-image: url(../../images/backgroundimage132.png);
 background-size: cover;
 background-repeat: no-repeat;
+background-position: center;
 
 }
 .flex{
@@ -263,12 +264,12 @@ margin-top: 30PX;}
     padding-bottom: 10px;
     text-align: start;
 
-/* display: flex; */
+ display: flex; 
 }
 
 .container-2{
     /* background-color:#f64b3c; */
-    /*  */
+    
     padding: 100px;
     display: flex;
     padding-bottom: 100px;
@@ -278,8 +279,10 @@ margin-top: 30PX;}
      
     gap: 150px;
     justify-content: center;
+    flex-wrap: nowrap;
     align-items: center;
     position: relative;
+    font-size: 20px;
 
  }
 
@@ -295,13 +298,17 @@ font-weight: 700;
 font-family: "Montserrat";
 text-align: center;
   /* margin: 30PX;   */
- margin-bottom: 5PX; 
+ /* padding-bottom: 20PX;  */
  /* margin-top: 30PX;  */
 
 border: 0;}
  h4{ 
     font-size: 80px;
  } 
+ h4+p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
 
  .momos1{
     position: absolute;
@@ -417,28 +424,28 @@ padding-bottom: 100px;
 .momos2{position: absolute;
 right: 0px;
 
- top: 3800px;
+ top: 70px;
 }
 .burger2{
     position: absolute;
-    top: 3650px;
+     top: -57px; 
     right: 180px;
     /* left: 10px; */
 }
 .leaf2{position: absolute;
-top: 3700px;
-left: 180px;}
+top: -20px;
+left: 229px;}
 .capcicum2{position: absolute;
 left: 0;
-top: 3750px;}
+top: -10px;}
 .mashroom2{
     position: absolute;
-    top: 4200px;
+    top: 450px;
     left: 0;
 }
 .fries2{position: absolute;
 right: 100px;
-top: 4100px;
+top: 395px;
 z-index: 0;}
 
 
@@ -646,11 +653,4 @@ ol>li{
 }
 
 
-@media screen and (max-width: 576px){
-    .container{
-        background-size: cover;
-        width: 100%;
-    }
 
-
-}
