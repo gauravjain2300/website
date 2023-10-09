@@ -233,11 +233,91 @@ left: 0px;}
 
 
 .text-area{
-    width: 200px;
+    width: 260px;
+    height: 50px;
 }
 .suscribe{
-    width: 117px;
+    width: 150px;
+    height: 50px;
+    z-index: 150px;
+    /* position: absolute; */
 }
+.dolor-2{font-size:15px;
+}
+
+.dolor-1{
+    font-size: 30px;
+}
+
+.container-6{padding:0px;
+margin-top: 70px;}
+
+.table{padding:0px;
+margin-top: 10px;}
+
+.burger3{
+    top: 50px;
+}
+
+.mashroom3{top:7344px}
+.leaf4{top: 7578px;
+left: -1px;}
+
+
+.momos3{top:7350px;
+right: 10px;}
+
+.fries3{top: 7480px;
+left: 400px;
+z-index: 0;}
+
+
+
+
+.remote{}
+.earbuds{ margin-left: 100px;
+gap: 1px;}
+.title{font-size: 5px;}
+ol{font-size: 5px;}
+
+
+    
+    .title{
+        padding-top: 0px;
+     padding-bottom: 0px;
+    margin: 10px;}
+    
+    ol{
+        /* display: flex; */
+        gap: 20px;
+        list-style: none;
+        
+        
+    }
+    .earbuds{
+        padding-top: 0px; 
+      padding-bottom: 0px;
+     display: flex;
+    
+        
+    }
+    .whatsapp{width: 15px;}
+
+    .Twitter{width: 15px;}
+   .facebook{width: 15px;}
+   .insta{width: 15px;}
+
+   
+    .charge{
+        font-size: 8px;
+        text-align: start;
+    }
+    .charger{
+        font-size: 20px;
+    }
+    
+    
+
 
 
 }
