@@ -1,0 +1,91 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: crimson;}
+
+
+nav{
+    background-color:tomato;
+   
+     
+
+}
+li{text-align: center;}
+
+ol{display: flex;
+ list-style: none; 
+gap: 150px;  
+align-items: center;
+text-align: center;
+color: white;
+justify-content: center;
+
+}
+
+.container{background: url(../../images/backgroundimage\ coffe.png);
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+h1{
+    font-size: 80px;
+    padding-bottom: 10px;
+}
+
+.main-text{
+    color: white;
+    text-align: center;
+    /* padding-bottom: 150px; */
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.Getstarted{background-color: tomato;
+height: 40px;
+width: 150px;
+margin-top: 40px;
+margin-bottom: 89px;
+}
+
+
+.section1{
+    color: beige;
+padding-top: 100px;
+padding-bottom: 100px;}
+
+
+.container-1{
+    padding-top: 82px;
+    padding-bottom: 85px;
+}
+
+
+
+span{font-size: 30px;
+color: beige;}
+
+
+h2{font-size: 60px;}
+.container-1{display: flex;
+justify-content: center;
+align-items: center;
+gap: 80px;
+}
+.text{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.claim{
+    height: 30px;
+    width: 120px;
+}
